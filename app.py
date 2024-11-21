@@ -39,7 +39,7 @@ def transform_text(text):
 
 
 tfidf=pickle.load(open('vectorizer.pkl','rb'))
-model=pickle.load(open('../Email-spam-detector/model.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
 
 st.title("SMS SPAM FILTERING")
 st.subheader("By Mahir Singh Pawar")
